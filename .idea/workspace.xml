@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b4be8b-a967-45fa-9b44-7fbbb156d008" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/maptest1/app.py" afterPath="$PROJECT_DIR$/tethysapp/maptest1/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/maptest1/controllers.py" afterPath="$PROJECT_DIR$/tethysapp/maptest1/controllers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/maptest1/public/css/main.css" afterPath="$PROJECT_DIR$/tethysapp/maptest1/public/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/maptest1/public/js/main.js" afterPath="$PROJECT_DIR$/tethysapp/maptest1/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/maptest1/templates/maptest1/home.html" afterPath="$PROJECT_DIR$/tethysapp/maptest1/templates/maptest1/home.html" />
     </list>
     <ignored path="tethysapp-maptest1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tethysapp/maptest1/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tethysapp/maptest1/public/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -114,11 +118,11 @@
         <option value="$PROJECT_DIR$/tethysapp/maptest1/public/js/ol.js" />
         <option value="$PROJECT_DIR$/tethysapp/maptest1/public/css/ol.css" />
         <option value="$PROJECT_DIR$/tethysapp/maptest1/templates/maptest1/base.html" />
-        <option value="$PROJECT_DIR$/tethysapp/maptest1/public/js/main.js" />
         <option value="$PROJECT_DIR$/tethysapp/maptest1/public/css/main.css" />
         <option value="$PROJECT_DIR$/tethysapp/maptest1/controllers.py" />
         <option value="$PROJECT_DIR$/tethysapp/maptest1/templates/maptest1/home.html" />
         <option value="$PROJECT_DIR$/tethysapp/maptest1/app.py" />
+        <option value="$PROJECT_DIR$/tethysapp/maptest1/public/js/main.js" />
       </list>
     </option>
   </component>
@@ -567,6 +571,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="82" column="99" selection-start-line="82" selection-start-column="99" selection-end-line="82" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,6 +613,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,6 +670,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -720,6 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,13 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tethysapp/maptest1/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tethysapp/maptest1/templates/maptest1/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -840,8 +841,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tethysapp/maptest1/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/maptest1/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
           <folding />
         </state>
       </provider>

@@ -9,7 +9,7 @@ var baseLayer = new ol.layer.Tile({
 
 //Define all WMS Sources:
 var LandCover =  new ol.source.TileWMS({
-        url:'http://geoserver.byu.edu/arcgis/services/FloodMap/Flood_6/MapServer/WmsServer?',
+        url:'http://geoserver.byu.edu/arcgis/services/FloodMap/Flood_1/MapServer/WmsServer?',
 
         params:{
             LAYERS:"1",
@@ -19,7 +19,7 @@ var LandCover =  new ol.source.TileWMS({
         });
 
 var FloodMap =  new ol.source.TileWMS({
-        url:'http://geoserver.byu.edu/arcgis/services/FloodMap/Flood_6/MapServer/WmsServer?',
+        url:'http://geoserver.byu.edu/arcgis/services/FloodMap/Flood_1/MapServer/WmsServer?',
 
         params:{
             LAYERS:"0",
