@@ -6,12 +6,12 @@ class Maptest1(TethysAppBase):
     Tethys app class for maptest1.
     """
 
-    name = 'maptest1'
+    name = 'HAND Flood Map'
     index = 'maptest1:home'
-    icon = 'maptest1/images/icon.gif'
+    icon = 'maptest1/images/flood.jpg'
     package = 'maptest1'
     root_url = 'maptest1'
-    color = '#2ecc71'
+    color = '#00BFFF'
     description = 'Place a brief description of your app here.'
     enable_feedback = False
     feedback_emails = []

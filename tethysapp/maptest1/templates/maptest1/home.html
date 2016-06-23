@@ -2,8 +2,6 @@
 {% load staticfiles %}
 
 {% block app_content %}
-    <!--<script src="{% static 'maptest1/css/ol.css' %}" type="text/css"></script>-->
-
 <!-- This extra bit of style defines the size of the "map" div tag area that shows up later -->
     <style>
       .map {
@@ -24,23 +22,14 @@
   <!--<script src="//code.jquery.com/jquery-1.10.2.js"></script>-->
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css">
-
-  <script>
-
-  </script>
-
 </head>
 <body>
-
 <p>
   <label for="amount">Flood Depth (meters):</label>
   <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:normal;">
 </p>
-
 <div id="slider"></div>
-
 </body>
-
 </html>
 
 <!--div tag for map-->
@@ -48,7 +37,6 @@
 {% endblock %}
 
 {% block app_navigation_items %}
-
   <li class="title">Display Layers</li>
 <div align = "left">
   <li><input type="checkbox" onClick="flood.setVisible(!flood.getVisible());"  id="ch_flood" name="flood" checked>Flood Map</li>

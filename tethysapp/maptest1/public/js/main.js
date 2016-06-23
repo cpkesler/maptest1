@@ -80,7 +80,7 @@ map.addControl(new ol.control.ZoomSlider());
 }());
 
 
-//Here we set the styles and inital setting for the slider bar
+//Here we set the styles and inital setting for the slider bar (https://jqueryui.com/slider/#steps)
 $(function() {
     $( "#slider" ).slider({
       value:1,
