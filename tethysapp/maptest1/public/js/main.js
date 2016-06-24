@@ -48,7 +48,7 @@ layers = [baseLayer, flood, land];
 
 //Establish the view area. Note the reprojection from lat long (EPSG:4326) to Web Mercator (EPSG:3857)
 var view = new ol.View({
-        center: [-9750000, 3923000],
+        center: [-9750000, 3920000],
         projection: projection,
         zoom: 12,
     })
